@@ -20,3 +20,4 @@ use App\Http\Controllers\ProfileController;
 Route::get('/', [UserController::class, 'showIndex']);
 Route::get('/menu', [UserController::class, 'showMenu']);
 Route::get('/login', [UserController::class, 'showLogin'] );
+Route::get('/register', [UserController::class, 'showRegister'] );

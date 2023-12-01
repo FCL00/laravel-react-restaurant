@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
+    public function showRegister(){
+        return inertia('Register');
+    }
     public function showIndex(){
         return inertia('Index');
     }
@@ -17,4 +20,5 @@ class UserController extends Controller
     public function showLogin(){
         return inertia('Login');
     }
+    
 }
